@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.diemond_player.idmid.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ItemEntityMixin",
+    "ItemStackMixin",
+    "PlayerEntityMixin",
+    "PlayerInventoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

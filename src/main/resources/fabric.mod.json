@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "idmid",
+	"version": "1.0.0-1.21.1",
+	"name": "I Died, My Items Didn't",
+	"description": "",
+	"authors": [
+		"Diemond_Player"
+	],
+	"contact": {
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/idmid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+	},
+	"mixins": [
+		"idmid.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21"
+	},
+	"suggests": {
+	}
+}

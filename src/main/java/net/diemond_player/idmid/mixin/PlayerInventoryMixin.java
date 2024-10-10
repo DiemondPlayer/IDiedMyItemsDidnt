@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.ModifyArg;
 @Mixin(PlayerInventory.class)
 public abstract class PlayerInventoryMixin {
 	@ModifyArg(at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/player/PlayerEntity;dropItem(Lnet/minecraft/item/ItemStack;ZZ)Lnet/minecraft/entity/ItemEntity;"), method = "dropAll")
-	private ItemStack init(ItemStack stack) {
+	private ItemStack idmid$dropAll(ItemStack stack) {
 		if(!(stack.isIn(IDMIDTags.Items.FORCE_DESPAWN))){
 			((IDMIDAccessor)((Object)stack)).idmid$setAsDeathDrop(true);
 		}

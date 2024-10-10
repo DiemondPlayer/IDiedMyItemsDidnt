@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "idmid",
-	"version": "1.0.0-1.21.1",
+	"version": "1.0.1-1.21.1",
 	"name": "I Died, My Items Didn't",
 	"description": "Prevents items from despawning if they were dropped via a player death. Never lose your items to the 5-minute timer ever again!",
 	"authors": [

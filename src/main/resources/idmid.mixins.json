@@ -1,7 +1,7 @@
 {
   "required": true,
   "package": "net.diemond_player.idmid.mixin",
-  "compatibilityLevel": "JAVA_21",
+  "compatibilityLevel": "JAVA_17",
   "mixins": [
     "ItemEntityMixin",
     "ItemStackMixin",

@@ -11,7 +11,7 @@ public class IDMIDTags {
                 createItemTag("force_despawn");
 
         private static TagKey<Item> createItemTag(String name) {
-            return TagKey.of(RegistryKeys.ITEM, Identifier.of("idmid", name));
+            return TagKey.of(RegistryKeys.ITEM, new Identifier("idmid", name));
         }
     }
 }
